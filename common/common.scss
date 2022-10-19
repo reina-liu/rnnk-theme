@@ -942,8 +942,45 @@ $flair-size: 5.5rem;
         }
       }
     }
+
+    .btn-primary {
+        padding: 1em;
+        width: -webkit-fill-available;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        background: var(--header_background);
+        border-top: 1px solid var(--secondary);
+  
+        button {
+          margin: unset !important;
+        }
+  
+        .btn-primary {
+          position: absolute;
+          left: 2em;
+          color: var(--primary-low-mid);
+  
+          &:focus {
+            background: unset;
+  
+            .d-icon {
+              color: unset;
+            }
+          }
+        }
+  
+        .btn-primary {
+          width: 10em;
+          border-radius: 1.2em;
+          color: var(--secondary);
+          background: var(--tertiary);
+        }
+      }
+    }
   }
-}
+
 
 
 
