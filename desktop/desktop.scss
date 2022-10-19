@@ -1,0 +1,27 @@
+@import "variables";
+
+//user profile box
+
+.user-main {
+    .about {
+
+        &.collapsed-info {
+            .details {
+                .primary {
+                    .avatar {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .details {
+            .primary {
+                .primary-textual {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+    }
+}

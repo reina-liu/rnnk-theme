@@ -1,0 +1,54 @@
+@import "variables";
+
+
+//topic list
+.list-controls {
+    .nav-pills {
+        >li {
+            border-radius: 4px;
+            border: 0;
+            background-color: #F5F1EC;
+        }
+
+        .drop {
+            border-radius: 4px;
+            border: 1px solid $colour-brown-02; 
+        }
+    }
+}
+
+.topic-body, .topic-avatar {
+    border-top: 0
+}
+
+.topic-post {
+    article {
+        border-top: 3px solid $colour-brown-02;
+    }
+}
+
+.mobile-nav {
+    border: 0;
+    background-color: #F5F1EC;
+    border-radius: $radius-4;
+}
+
+.user-main {
+    .about {
+        .controls {
+            ul {
+                margin-bottom: 10px;
+
+                li,
+                >span {
+                    margin-top: 15px;
+                }
+            }
+        }
+
+    }
+
+    .collapsed-info.about.has-background .details {
+        margin-bottom: 20px;
+    }
+}

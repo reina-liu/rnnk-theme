@@ -1,0 +1,32 @@
+{
+  "name": "Sunflower",
+  "component": false,
+  "license_url": "https://github.com/akachinonyerem/discourse-sunflower-theme/blob/master/LICENSE",
+  "about_url": null,
+  "authors": "https://github.com/akachinonyerem",
+  "theme_version": "1.0",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  
+  "color_schemes": {
+    "Sunflower": {
+      "primary": "090707",
+      "secondary": "FFFFFF",
+      "tertiary": "B2845D",
+      "quaternary": "8A4A19",
+      "header_background": "F4D35E",
+      "header_primary": "40312A",
+      "highlight": "EADAC9",
+      "danger": "D02001",
+      "success": "005100",
+      "love": "E1AF48"
+    }
+  },
+
+  "modifiers": {
+  },
+
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

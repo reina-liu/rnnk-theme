@@ -1,0 +1,18 @@
+{{#if canSelectFlair}}
+  <div class="control-group pref-flair">
+    <label class="control-label">{{i18n "user.flair.title"}}</label>
+    <div class="controls">
+      {{choose-avatar-flair
+        value=newFlairGroupId
+        content=model.availableFlairs
+        onChange=(action (mut newFlairGroupId))
+        options=(hash
+          none="user.flair.none"
+        )
+      }}
+    </div>
+    <div class="instructions">
+      {{i18n "user.flair.instructions"}}
+    </div>
+  </div>
+{{/if}}
