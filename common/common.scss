@@ -982,7 +982,7 @@ $flair-size: 5.5rem;
   }
 
 
-
+/*
 
 .container {
   .groups-boxes {
@@ -1045,13 +1045,20 @@ $flair-size: 5.5rem;
 }
 
 
-/*
+
 .poster>.avatar-flair.avatar-flair-image{
   display:none;
 }
 
 .post-count{
   z-index:1;
+}
+*/
+
+@if (str-index($new_user_flair_icon, "http")) {
+    .avatar-flair{
+    background-image: url($new_user_flair);
+    }
 }
 
 .topic-avatar{
@@ -1086,6 +1093,7 @@ $flair-size: 5.5rem;
   left: -10% !important;
 }
 
+/*
 .avatar-flair.avatar-flair-admin.avatar-flair-image{
   animation: spin 20s linear infinite;
 }
@@ -1105,7 +1113,7 @@ $flair-size: 5.5rem;
 }
 }
 
-*/
+
 
 
 .groups-header {
@@ -1146,3 +1154,4 @@ $flair-size: 5.5rem;
   }
 }
 
+*/

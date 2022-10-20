@@ -1,0 +1,6 @@
+new_user_flair:
+  default: ""
+  type: string
+  description: "The image URL for the new user.
+    TIP: Upload your images to a local theme component. Once uploaded, right-click on the upload link,
+    copy the image address, then paste the link into this textbox."
