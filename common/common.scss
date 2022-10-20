@@ -943,7 +943,7 @@ $flair-size: 5.5rem;
       }
     }
 
-    .btn-primary {
+    .btn-default {
         padding: 1em;
         width: -webkit-fill-available;
         position: fixed;
@@ -957,7 +957,7 @@ $flair-size: 5.5rem;
           margin: unset !important;
         }
   
-        .btn-primary {
+        .btn {
           position: absolute;
           left: 2em;
           color: var(--primary-low-mid);
@@ -971,7 +971,7 @@ $flair-size: 5.5rem;
           }
         }
   
-        .btn-primary {
+        .btn {
           width: 10em;
           border-radius: 1.2em;
           color: var(--secondary);
