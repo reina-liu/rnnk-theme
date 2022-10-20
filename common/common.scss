@@ -1055,7 +1055,7 @@ $flair-size: 5.5rem;
 }
 */
 
-@if (str-index($new_user_flair_icon, "http")) {
+@if (str-index($new_user_flair, "http")) {
     .avatar-flair{
     background-image: url($new_user_flair);
     }
