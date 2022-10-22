@@ -859,6 +859,9 @@ div.ac-wrap {
 
 $flair-size: 5.5rem;
 
+// 我认为这部分写的是Preference的UI（我认为）
+// 包括choose-avatar-flair.js也是干这个的吧
+
 .select-kit.choose-avatar-flair {
   .select-kit-header {
     .select-kit-header-wrapper {
@@ -943,6 +946,7 @@ $flair-size: 5.5rem;
       }
     }
 
+    // 这个btn改了 用的是sunflower的
     .btn-default {
         padding: 1em;
         width: -webkit-fill-available;
@@ -982,8 +986,8 @@ $flair-size: 5.5rem;
   }
 
 
+// 以下代码感觉没什么用 主要是和group有点关系 怀疑写的是管理能看见的组
 /*
-
 .container {
   .groups-boxes {
     grid-template-columns: repeat(auto-fit, 7em);
@@ -1045,7 +1049,7 @@ $flair-size: 5.5rem;
 }
 
 
-
+// 不知道写的啥 总之我comment掉了
 .poster>.avatar-flair.avatar-flair-image{
   display:none;
 }
@@ -1055,17 +1059,20 @@ $flair-size: 5.5rem;
 }
 */
 
+// 这个是我照trust level改的，不要在意
 @if (str-index($new_user_flair, "http")) {
     .avatar-flair{
     background-image: url($new_user_flair);
     }
 }
 
+
+// 下面的是一些头像框的参数调整 给每个不同位置的头像安排了不同的大小（吧
 .topic-avatar{
   padding: 0.4%;
 }
 
-.topic-avatar .avatar-flair,
+.topic-avatar .avatar-flair, // 比如说这一行前一个是topic里的头像后面是头像框
 .user-card-avatar .avatar-flair,
 .avatar-flair-preview .avatar-flair,
 .user-image .avatar-flair,
@@ -1093,6 +1100,9 @@ $flair-size: 5.5rem;
   left: -10% !important;
 }
 
+
+// 下面的代码是做动态的 我们暂时没那么高端
+
 /*
 .avatar-flair.avatar-flair-admin.avatar-flair-image{
   animation: spin 20s linear infinite;
@@ -1114,7 +1124,7 @@ $flair-size: 5.5rem;
 }
 
 
-
+// 这个也是和group有关的
 
 .groups-header {
   padding: 1em;
