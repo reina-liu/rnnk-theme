@@ -987,7 +987,7 @@ $flair-size: 5.5rem;
 
 
 // 以下代码感觉没什么用 主要是和group有点关系 怀疑写的是管理能看见的组
-/*
+
 .container {
   .groups-boxes {
     grid-template-columns: repeat(auto-fit, 7em);
@@ -1057,7 +1057,7 @@ $flair-size: 5.5rem;
 .post-count{
   z-index:1;
 }
-*/
+
 
 // 这个是我照trust level改的，不要在意
 @if (str-index($new_user_flair, "http")) {
@@ -1103,7 +1103,7 @@ $flair-size: 5.5rem;
 
 // 下面的代码是做动态的 我们暂时没那么高端
 
-/*
+
 .avatar-flair.avatar-flair-admin.avatar-flair-image{
   animation: spin 20s linear infinite;
 }
@@ -1164,4 +1164,3 @@ $flair-size: 5.5rem;
   }
 }
 
-*/
