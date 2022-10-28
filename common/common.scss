@@ -1075,13 +1075,13 @@ $flair-size: 5.5rem;
 }
 
 .user-profile-avatar .avatar-flair{
-  width: 100px !important;
-  height: 100px !important;
+  width: 120px !important;
+  height: 120px !important;
 }
 
 .collapsed-info .user-profile-avatar .avatar-flair{
-    width: 90% !important;
-    height: 75% !important;
+    width: 90px !important;
+    height: 90px !important;
 }
 
 .topic-avatar .avatar-flair,
@@ -1089,7 +1089,8 @@ $flair-size: 5.5rem;
 .avatar-flair-preview .avatar-flair,
 .topic-map .poster .avatar-flair,
 .user-image .avatar-flair,
-.latest-topic-list-item .avatar-flair{
+.latest-topic-list-item .avatar-flair,
+.collapsed-info .user-profile-avatar .avatar-flair{
   background-size: 100% 100% !important;
   pointer-events: none !important;
   top: -10% !important;
