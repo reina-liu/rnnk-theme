@@ -1077,8 +1077,8 @@ $flair-size: 5.5rem;
 .avatar-flair-preview .avatar-flair,
 .user-image .avatar-flair,
 .latest-topic-list-item .avatar-flair {
-  width: 110% !important;
-  height: 110% !important;
+  width: 120% !important;
+  height: 120% !important;
 }
 
 .user-profile-avatar .avatar-flair{
@@ -1087,8 +1087,8 @@ $flair-size: 5.5rem;
 }
 
 .collapsed-info .user-profile-avatar .avatar-flair{
-    width: 100% !important;
-    top: -10% !important;
+    width: 50% !important;
+    height: 50% !important;
 }
 
 .topic-avatar .avatar-flair,
