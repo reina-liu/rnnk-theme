@@ -1070,8 +1070,8 @@ $flair-size: 5.5rem;
 .avatar-flair-preview .avatar-flair,
 .user-image .avatar-flair,
 .latest-topic-list-item .avatar-flair {
-  width: 115% !important;
-  height: 115% !important;
+  width: 120% !important;
+  height: 120% !important;
 }
 
 .user-profile-avatar .avatar-flair{
@@ -1083,6 +1083,7 @@ $flair-size: 5.5rem;
     width: 45px !important;
     height: 45px !important;
     top: 10px !important;
+    left: 8px !important;
 }
 
 .topic-avatar .avatar-flair,
@@ -1093,8 +1094,8 @@ $flair-size: 5.5rem;
 .latest-topic-list-item .avatar-flair{
   background-size: 100% 100% !important;
   pointer-events: none !important;
-  top: -5% !important;
-  left: -5% !important;
+  top: -10% !important;
+  left: -10% !important;
 }
 
 
