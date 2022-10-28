@@ -1076,12 +1076,13 @@ $flair-size: 5.5rem;
 
 .user-profile-avatar .avatar-flair{
   width: auto !important;
-  height: auto !important;
+  height: 100% !important;
   left: -10% !important;
 }
 
 .collapsed-info .user-profile-avatar .avatar-flair{
     width: auto !important;
+    height: 100% !important;
 }
 
 .topic-avatar .avatar-flair,
