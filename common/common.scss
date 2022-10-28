@@ -1086,18 +1086,21 @@ $flair-size: 5.5rem;
   height: 110% !important;
 }
 
+.collapsed-info .user-profile-avatar .avatar-flair{
+    width: 100% !important;
+    height: 100% !important;
+}
 
 .topic-avatar .avatar-flair,
 .user-card-avatar .avatar-flair,
 .avatar-flair-preview .avatar-flair,
 .topic-map .poster .avatar-flair,
-.collapsed-info .user-profile-avatar .avatar-flair,
 .user-image .avatar-flair,
 .latest-topic-list-item .avatar-flair{
   background-size: 110% 110% !important;
   pointer-events: none !important;
-  top: -20% !important;
-  left: -5% !important;
+  top: -10% !important;
+  left: -10% !important;
 }
 
 
