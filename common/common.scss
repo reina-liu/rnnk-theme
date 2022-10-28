@@ -1075,15 +1075,15 @@ $flair-size: 5.5rem;
 }
 
 .user-profile-avatar .avatar-flair{
-  width: 125px !important;
-  height: 125px !important;
+  width: 135px !important;
+  height: 135px !important;
 }
 
 .collapsed-info .avatar-flair{
     width: 50px !important;
     height: 50px !important;
     top: 10px !important;
-    left: 15px !important;
+    left: -15px !important;
 }
 
 .topic-avatar .avatar-flair,
