@@ -1059,13 +1059,6 @@ $flair-size: 5.5rem;
 }
 
 
-// 这个是我照trust level改的，不要在意
-@if (str-index($new_user_flair, "http")) {
-    .avatar-flair{
-    background-image: url($new_user_flair);
-    }
-}
-
 
 // 下面的是一些头像框的参数调整 给每个不同位置的头像安排了不同的大小（吧
 .topic-avatar{
@@ -1077,22 +1070,18 @@ $flair-size: 5.5rem;
 .avatar-flair-preview .avatar-flair,
 .user-image .avatar-flair,
 .latest-topic-list-item .avatar-flair {
-  width: 120% !important;
-  height: 120% !important;
+  width: 110% !important;
+  height: 110% !important;
 }
 
 .user-profile-avatar .avatar-flair{
-  width: 90% !important;
-  height: 90% !important;
-  top: -10% !important;
-  left: -10% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .collapsed-info .user-profile-avatar .avatar-flair{
     width: 80% !important;
     height: 80% !important;
-    top: -10% !important;
-    left: -10% !important;
 }
 
 .topic-avatar .avatar-flair,
