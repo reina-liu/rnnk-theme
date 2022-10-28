@@ -1075,14 +1075,13 @@ $flair-size: 5.5rem;
 }
 
 .user-profile-avatar .avatar-flair{
-  width: auto !important;
-  height: 100% !important;
-  left: -10% !important;
+  width: 100px !important;
+  height: 100px !important;
 }
 
 .collapsed-info .user-profile-avatar .avatar-flair{
-    width: auto !important;
-    height: 100% !important;
+    width: 90% !important;
+    height: 75% !important;
 }
 
 .topic-avatar .avatar-flair,
@@ -1119,7 +1118,6 @@ $flair-size: 5.5rem;
   filter: hue-rotate(360deg);
 }
 }
-
 */
 
 // 这个也是和group有关的
