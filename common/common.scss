@@ -1082,8 +1082,9 @@ $flair-size: 5.5rem;
 }
 
 .collapsed-info .avatar-flair{
-    width: 300% !important;
-    height: 300% !important;
+    transform: scale(3);
+    width: 100% !important;
+    height: 100% !important;
     top: 10% !important;
     left: -4% !important;
 }
