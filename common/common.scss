@@ -1075,14 +1075,15 @@ $flair-size: 5.5rem;
 }
 
 .user-profile-avatar .avatar-flair{
-  width: 300% !important;
-  height: 300% !important;
-  top: -5% !important;
-  left: -8% !important;
+    transform: scale(2);
+    width: 100% !important;
+    height: 100% !important;
+    top: -5% !important;
+    left: -8% !important;
 }
 
 .collapsed-info .avatar-flair{
-    transform: scale(3);
+    transform: scale(2);
     width: 100% !important;
     height: 100% !important;
     top: 10% !important;
