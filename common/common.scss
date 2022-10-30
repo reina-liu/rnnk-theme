@@ -1102,15 +1102,17 @@ $flair-size: 5.5rem;
 }
 */
 
+// PC端
 .collapsed-info .avatar-flair{
     transform: scale(2.6);
     width: 100px !important;
     max-height: 80px !important;
     pointer-events: none !important;
-    top: -25px !important;
+    top: 0px !important;
     left: -28px !important;
 }
 
+// 手机端
 @media screen and (max-width: 1000px){
     .collapsed-info .avatar-flair{
         transform: scale(2.6);
