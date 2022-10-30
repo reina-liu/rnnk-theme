@@ -1089,15 +1089,25 @@ $flair-size: 5.5rem;
     width: 100px !important;
     height: 100px !important;
     top: 8.5px !important;
-    left: 8px !important;
+    left: 9px !important;
 }
 
+/*
 .collapsed-info .avatar-flair{
     transform: scale(2.5);
     width: 90% !important;
     height: 80% !important;
     top: 10% !important;
     left: -8% !important;
+}
+*/
+
+.collapsed-info .avatar-flair{
+    transform: scale(2.5);
+    width: 100px !important;
+    height: 100px !important;
+    top: 10px !important;
+    left: -8px !important;
 }
 
 .topic-avatar .avatar-flair,
