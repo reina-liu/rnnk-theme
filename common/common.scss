@@ -1075,6 +1075,13 @@ $flair-size: 5.5rem;
   height: 111.8% !important;
 }
 
+
+/* Can use top and left to adjust the frame position.
+   e.g. top:    if positive (10px) then the frame will move down, 
+                if negative (-10px) then the frame will move up
+                总之忘记的话试一试就好了……
+*/
+
 // 是user profile里较大版头像，由于参数很难一致所以pc和mobile分开了
 // 电脑端
 .user-profile-avatar .avatar-flair{
