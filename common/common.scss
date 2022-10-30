@@ -1060,12 +1060,13 @@ $flair-size: 5.5rem;
 
 
 
-// 下面的是一些头像框的参数调整 给每个不同位置的头像安排了不同的大小（吧
+// 下面的是一些头像框的参数调整 给每个不同位置的头像安排了不同的大小和位置
 .topic-avatar{
   padding: 0.4%;
 }
 
-.topic-avatar .avatar-flair, // 比如说这一行前一个是topic里的头像后面是头像框
+.topic-avatar .avatar-flair, 
+// 比如说上面这一行前一个是topic里的头像，后面是头像框
 .user-card-avatar .avatar-flair,
 .avatar-flair-preview .avatar-flair,
 .user-image .avatar-flair,
@@ -1074,17 +1075,8 @@ $flair-size: 5.5rem;
   height: 111.8% !important;
 }
 
-/*
-.user-profile-avatar .avatar-flair{
-    transform: scale(3.38);
-    width: 89.5% !important;
-    height: 89.5% !important;
-    top: 0.5% !important;
-    left: -3.7% !important;
-}
-*/
-
-// PC端
+// 是user profile里较大版头像，由于参数很难一致所以pc和mobile分开了
+// 电脑端
 .user-profile-avatar .avatar-flair{
     transform: scale(3.4);
     width: 100px !important;
@@ -1092,7 +1084,6 @@ $flair-size: 5.5rem;
     top: 8.5px !important;
     left: 9px !important;
 }
-
 // 手机端
 @media screen and (max-width: 1000px){
     .user-profile-avatar .avatar-flair{
@@ -1104,17 +1095,8 @@ $flair-size: 5.5rem;
     }
 }
 
-/*
-.collapsed-info .avatar-flair{
-    transform: scale(2.5);
-    width: 90% !important;
-    height: 80% !important;
-    top: 10% !important;
-    left: -8% !important;
-}
-*/
-
-// PC端
+// 是user profile里缩略版头像，由于参数很难一致所以pc和mobile分开了
+// 电脑端
 .collapsed-info .avatar-flair{
     transform: scale(2.6);
     width: 100px !important;
@@ -1123,7 +1105,6 @@ $flair-size: 5.5rem;
     top: -8px !important;
     left: -28px !important;
 }
-
 // 手机端
 @media screen and (max-width: 1000px){
     .collapsed-info .avatar-flair{
@@ -1135,6 +1116,7 @@ $flair-size: 5.5rem;
         left: -28px !important;
     }
 }
+
 
 .topic-avatar .avatar-flair,
 .user-card-avatar .avatar-flair,
