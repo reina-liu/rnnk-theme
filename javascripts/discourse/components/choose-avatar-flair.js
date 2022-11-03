@@ -1,7 +1,7 @@
 import { computed } from "@ember/object";
 import ComboBoxComponent from "select-kit/components/combo-box";
 import { createPopper } from "@popperjs/core";
-
+/*
 export default ComboBoxComponent.extend({
   pluginApiIdentifiers: ["avatar-frame-chooser"],
   classNames: ["avatar-frame-chooser"],
@@ -59,3 +59,4 @@ export default ComboBoxComponent.extend({
     }
   ),
 });
+*/
